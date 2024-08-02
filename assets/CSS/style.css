@@ -1,0 +1,203 @@
+*{
+    /* border: 1px solid red; */
+    font-family:serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: relative;
+}
+.kredo-img{
+    background-image: url(../images/kredo-logo.png);
+    background-size: cover;
+    background-position: center;
+    width: 4em;
+    height: 4em;
+    display: inline-block;
+}
+header ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 1em;
+}
+header ul{
+    display: inline-block;
+    width: 46%;
+    /* text-align:center ; */
+}
+.left{
+    padding-right: 3em;
+    text-align:right ;
+}
+.right{
+    padding-left: 3em;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.banner{
+    background-image: url(../images/atf.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25em;
+    position: relative;
+    color: white;
+    text-align: right;
+}
+.banner-title{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    right: 5%;
+    text-align: right;
+}
+.banner-lorem{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    right:5%;
+}
+button{
+    display: inline-block;
+    width: 8em;
+    background-color: rgb(210, 195, 124);
+    border: none;
+    border-radius: 5px 5px ;
+    height: 2.5em;
+    color: white;
+    font-weight: bold;
+}
+.button0{
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    right:5%;
+}
+
+
+.about{
+    margin: 3% 10%;
+    position: relative;
+    height: 100%;
+}
+.about h2{
+    text-align: center;
+    padding: 2%;
+}
+.about-img1{
+    background-image: url(../images/img1.png);
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+    height: 10em;
+    display: inline-block   
+}
+.about-lorem1{
+    display: inline-block;
+    width: 80%;
+    float: right;
+    padding-left: 3%;
+}
+.button1{
+    float: left;
+    display: inline-block;
+}
+
+.about-lorem2{
+    /* display: inline-block; */
+    width: 80%;
+    float: left;
+    margin-top: 3%;
+    padding-right: 3%;
+}
+
+.button2{
+    float: right;
+    /* display: inline-block; */
+}
+.about-img2{
+    background-image: url(../images/img2.png);
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+    height: 10em;
+    /* display: inline-block ; */
+    float: right; 
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+
+
+footer{
+    clear: both;
+    background-color: rgb(210, 195, 124);
+    height: 22em;
+    width: 100%;
+    
+}
+.schedule{
+    width: 50%;
+    padding: 3% 6.5%;
+    float: left;
+}
+footer h2{
+    text-align: center;
+    margin-bottom: 1em;
+}
+table{
+    width: 100%;
+}
+td{
+    width: 8em;
+    padding: 0.5em 0;
+}
+input{
+    width: 20em;
+}
+#book{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 5px 5px;
+}
+
+.list{
+    width: 50%;
+    float: right;
+    padding: 3% 5%;
+}
+th{
+    background-color: black;
+    color: white;
+}
+.even{
+    background-color: #dadada;
+}
+td{
+    text-align: center;
+}
+.reserved{
+    background-color: rgb(167, 254, 176);
+}
+.pending{
+    background-color: rgb(255, 204, 110);
+}
+.name{
+    width: 18em;
+}
+.footer-title{
+    background-color: white;
+
+    text-align: center;
+    margin: 1em;
+}
+
+
+
